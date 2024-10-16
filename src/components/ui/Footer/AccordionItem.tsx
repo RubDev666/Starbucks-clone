@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
-import type { AccordionItemProps } from "../../types/components-props";
+import type { AccordionItemProps } from "../../../types/components-props";
 
 export default function AccordionItem({btnTitle, links}: AccordionItemProps) {
     const [isOpen, setIsOpen] = useState(false);
