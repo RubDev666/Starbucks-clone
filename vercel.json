@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "index.html",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "dist"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "index.html"
+        },
+        {
+            "src": "/menu",
+            "dest": "index.html"
+        },
+        {
+            "src": "/rewards",
+            "dest": "index.html"
+        },
+        {
+            "src": "/gift",
+            "dest": "index.html"
+        }
+    ]
+}
